@@ -5,7 +5,7 @@
 // (accounts, news, reviews, settings) lives in Firestore now.
 // See sheets-logging/SETUP.md.
 // ══════════════════════════════════════════════════
-const SHEETS_LOG_URL = "";
+const SHEETS_LOG_URL = "https://script.google.com/macros/s/AKfycbzmsnX0mJ_Pf_jPDzD1Ciw0-RIz6ST9Vx2c9EduqKSH8HXEUH6VLWR9ADT1z38-R6ZIww/exec";
 
 function logToSheet(action, payload) {
     if (!SHEETS_LOG_URL) return;
